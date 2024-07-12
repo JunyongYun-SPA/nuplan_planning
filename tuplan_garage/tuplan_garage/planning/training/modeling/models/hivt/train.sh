@@ -1,0 +1,3 @@
+python local_encoder_120m_goal_ver8_v4_centerline.py
+python local_encoder_120m_goal_ver8_v4_centerline_v2.py
+python local_encoder_120m_goal_ver8_v4_centerline_v3.py

@@ -1,0 +1,3 @@
+python sim_CLS_NR_ver8_v4_loss_add_features_refinement.py
+python sim_OLS_ver8_v4_loss_add_features_refinement.py
+python sim_CLS_R_ver8_v4_loss_add_features_refinement.py

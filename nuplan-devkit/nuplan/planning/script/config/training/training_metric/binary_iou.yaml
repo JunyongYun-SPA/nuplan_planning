@@ -1,0 +1,3 @@
+binary_iou:
+  _target_: nuplan.planning.training.modeling.metrics.planning_metrics.BinaryIOU
+  _convert_: 'all'

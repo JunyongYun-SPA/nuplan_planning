@@ -1,0 +1,35 @@
+_target_: nuplan.planning.scenario_builder.scenario_filter.ScenarioFilter
+_convert_: 'all'
+
+scenario_types: # List of scenario types to include
+
+scenario_tokens:
+  # - '43684e638e545af7'
+  # - '5783cad294585faa'
+  # - '5b3fa11325e95c68'
+  # - '60c31b59ab8a563e'
+  # - '71f20f6407c55709'
+  # - '79766599ff6b5b62'
+  # - 'c45571dbd2ce5e92'
+  # - 'c5b585c0103c5340'
+  # - 'f9c453610b045457'
+  - '3bdf055c00125477'
+  - '5bcaaed9e73f5fc2'
+  - '6badb2820fd251fd'
+  - '9dde07ed9e5455d3'
+  - '022fcc82f6d55f46'
+
+log_names: ${splitter.log_splits.val}
+map_names: null
+
+num_scenarios_per_type: null
+limit_total_scenarios: null
+timestamp_threshold_s: 15
+ego_displacement_minimum_m: null    # Whether to remove scenarios where the ego moves less than a certain amount
+ego_start_speed_threshold: null     # Limit to scenarios where the ego reaches a certain speed from below
+ego_stop_speed_threshold: null      # Limit to scenarios where the ego reaches a certain speed from above
+speed_noise_tolerance: null         # Value at or below which a speed change between two timepoints should be ignored as noise.
+
+expand_scenarios: false
+remove_invalid_goals: true
+shuffle: false

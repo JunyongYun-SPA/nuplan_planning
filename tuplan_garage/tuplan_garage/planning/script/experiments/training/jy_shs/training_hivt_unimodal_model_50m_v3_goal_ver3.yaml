@@ -1,0 +1,17 @@
+# @package _global_
+experiment_name: training_hivt_unimodal_model_50m_v3_goal_ver3 #JY
+py_func: train
+objective_aggregate_mode: mean
+
+defaults:
+  - override /data_augmentation:
+  - override /objective:
+      - l1_objective_for_unimodal
+  - override /splitter: nuplan
+  - override /model: hivt_unimodal_model_50m_v3_goal_ver3 #JY
+  - override /scenario_filter: train150k_split
+  - override /training_metric:
+      - avg_displacement_error
+      - avg_heading_error      
+      - final_displacement_error
+      - final_heading_error

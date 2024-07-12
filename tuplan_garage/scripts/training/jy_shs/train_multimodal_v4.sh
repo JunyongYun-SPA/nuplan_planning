@@ -1,0 +1,2 @@
+python train_hivt_multimodal_120m_v4_goal_ver3_script.py
+python train_hivt_multimodal_120m_v4_goal_ver3_script_120m.py

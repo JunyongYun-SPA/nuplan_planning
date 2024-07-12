@@ -1,0 +1,4 @@
+l1_objective_occupancy:
+  _target_: tuplan_garage.planning.training.modeling.objectives.l1_objective_for_multimodal_occupancy_BCE.L1ObjectiveOccupancy
+  _convert_: 'all'
+  weight: 1.0  # weight contribution to the overall loss

@@ -1,0 +1,4 @@
+l1_objective_agent:
+  _target_: tuplan_garage.planning.training.modeling.objectives.l1_objective_for_multimodal_agent.L1ObjectiveAgent
+  _convert_: 'all'
+  weight: 1.0  # weight contribution to the overall loss
